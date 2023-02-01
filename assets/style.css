@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #404A4A;
+}
+
+#main-header h1 {
+    color: #D13AE8;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    justify-content: space-evenly;
+    margin: 2%;
+    position: relative;
+    width: 400px;
+    top: 30px;
+    left: 2%;
+    height: 250px;
+    border: 2px dashed white;
+}
+
+.header{
+    position: absolute;
+    text-align: left;
+    border-radius: 5px;
+    top: -15px;
+    width: 370px;
+    left: 3%;
+    border: 2px solid white;
+    font-size: 30px;
+    background-color: #404A4A;
+    color: #D13AE8;
+}
+
+.flexbox-text{
+    position: absolute;
+    text-align: left;
+    color: #D13AE8;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 25px;
+    left: 3%;
+}
+
+#cheat-sheet{
+    width: 370px;
+    height: 150px;
+    text-align: left;
+    position: absolute;
+    border: 2px solid #D13AE8;
+    border-radius: 5px;
+    left: 3%;
+    background-color: #D13AE8;
+    top: 65px;
+    color: white;
+}
